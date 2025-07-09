@@ -1,4 +1,4 @@
-# 🧠 DevStudy
+# 😺 DevStudy
 
 > 👩‍💻 **개발 공부 아카이브** — React, TypeScript, Java, SQL 등 다양한 기술 스택을 실습하고 정리한 저장소입니다.
 
