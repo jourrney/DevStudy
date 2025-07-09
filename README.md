@@ -13,20 +13,6 @@
 
 ---
 
-## 🗂 폴더 구조
-DevStudy/
-│
-├── React/
-│ └── ToDoList/ # ✅ Context + TypeScript 기반의 투두 리스트
-│
-├── Java/
-│ └── AlgorithmPractice # 📘 알고리즘 문제 풀이
-│
-└── SQL/
-└── OraclePractice # 🛠 Oracle SQL 실습
-
----
-
 ## ⚒️ 사용 기술
 
 | Stack        | Description                             |
@@ -56,8 +42,6 @@ DevStudy/
 ## 🌱 향후 계획
 
 - [ ] React 컴포넌트 테스트 도입 (Jest / Testing Library)
-- [ ] 사이드 프로젝트 추가: 마이페이지 UI 구현
-- [ ] Java 알고리즘 중급 난이도 정복
-- [ ] SQL 실무 예제 모음 정리
+...
 
 ---
