@@ -42,6 +42,7 @@
 ## 🌱 향후 계획
 
 - [ ] React 컴포넌트 테스트 도입 (Jest / Testing Library)
+- [ ] React기반 Ant Design과 Tailwind CSS를 활용한 웹페이지 구현
 ...
 
 ---
