@@ -1,47 +1,60 @@
-# DevStudy
-# Getting Started with Create React App
+# ✅ ToDoList - React + TypeScript + Context API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+하루 할 일을 기록하고 관리할 수 있는 간단한 투두 리스트입니다.  
+React + TypeScript + Context API를 활용하여 상태 관리를 전역으로 처리했습니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 주요 기술 스택
 
-### `npm start`
+- **React**  
+- **TypeScript**
+- **Context API**  
+- **Hooks** (`useState`, `useContext`)  
+- **Functional Components**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 폴더 구조
+```
+ToDoList/
+├── components/
+│   ├── TodoInput.tsx       # 할 일 입력창
+│   ├── TodoItem.tsx        # 할 일 항목 컴포넌트
+│   └── TodoList.tsx        # 전체 할 일 목록
+│
+├── context/
+│   └── TodoContext.tsx     # Context 정의 및 Provider
+│
+├── types/
+│   └── todo.ts             # Todo 타입 정의
+│
+├── index.tsx               # ToDoList 루트 컴포넌트
+└── App.css                 # 스타일링
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 💡 주요 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 할 일 추가
+- 할 일 완료 표시 (취소선으로 표시)
+- Context를 통한 전역 상태 관리
+- 타입 안전한 컴포넌트 설계
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 학습 포인트
 
-### `npm run eject`
+- Props로 상태를 전달하는 구조 vs Context 구조 비교
+- 컴포넌트 분리와 타입 정의
+- Context의 `createContext`, `useContext`, Provider 흐름
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✨ 화면 예시
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![ToDo List Screenshot](https://velog.velcdn.com/images/juyeoonni/post/317c09c6-e38f-43e0-bd66-fe573578f83f/image.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
